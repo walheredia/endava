@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<title>Endava - Exercise</title>
+	<head>
+		<link rel="icon" type="image/png" href="images/favicon.ico" />
+		<link rel="stylesheet/less" type="text/css" href="css/styles.less" />
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.0.2/less.min.js" ></script>
+		<script src="js/users.js" ></script>
+	</head>
+	<body>
+		<div id="excercises" class="excercises">
+			<div id="first-ex" class="first-ex">
+				<label for="label" class="control-label">First exercise:</label>
+				<input class="input-text" type="text" name="searchBox" id="searchBox" placeholder="Type the username here!">
+				<button class="boton" type="button" onclick="searchUserByClick()">
+					Search
+				</button>		
+			</div>
+			<div id="second-ex" class="second-ex">
+				<label for="label" class="control-label pull-center">Second exercise:</label>
+				<ul>
+					<li>
+						<input class="input-text" type="text" name="searchBox2" id="searchBox2" placeholder="Type the usern. or part of it" oninput="searchUserByInput()">
+					</li>
+					<div id="searchField" class="searchField">
+					</div>
+				</ul>
+			</div>
+		</div>
+		<div id="table" class="table-container">
+		</div>
+	</body>
+	<footer class="footer">
+		<img src="images/footer.png" class="img-footer">
+		<p>Copyright Endava 2018. All rights reserved.</p>
+		<p>Contact information: <a href="mailto:wal_dh@hotmail.com">
+		wal_dh@hotmail.com</a>.</p>
+	</footer>
+</html>
