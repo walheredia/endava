@@ -1,3 +1,3 @@
-# endava
+# Endava
 That contains the two exercises in a single page. Just make sure to download the project an run it in a web server like LAMP, XAMPP...
 Thanks for your time!
